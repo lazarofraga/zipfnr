@@ -1,0 +1,44 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*~
+
+# Test/Debugging
+.ipynb_checkpoints
+.cache
+coverage/
+*.coverage
+.tox/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+dist/
+build/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+
+# Backup
+*.bak
